@@ -1,12 +1,18 @@
 Package: regexcite
-Title: What the Package Does (One Line, Title Case)
+Title: This Does Little
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Dworkin", "Ian", , "dworkin@mcmaster.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-2874-287X"))
+Description: This is a test package, simply helping me to learn how to put together an R package. Anything useful here is purely incidental.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    stats
+URL: https://github.com/idworkin/regexcite
+BugReports: https://github.com/idworkin/regexcite/issues
